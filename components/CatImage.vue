@@ -14,11 +14,12 @@
 <template>
     <div class="flex flex-wrap w-1/3">
       <div class="w-full p-1 md:p-2 relative">
-        <img
+        <NuxtImg
           class="block object-cover object-center w-full h-full rounded-lg"
           :alt="title"
           :src="src"
-        >
+          format="webp"
+        />
       </div>
     </div>
   </template>
