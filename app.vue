@@ -3,7 +3,7 @@
     <h2 class="text-2xl">Data From Storyblok</h2>
     <cat-image-gallery :images="story.content.body"/>
     <h2 class="text-2xl">Data From Algolia</h2>
-    <cat-image-gallery :images="result.hits"/>
+    <cat-image-gallery :images="result?.hits"/>
   </div>
 </template>
 
